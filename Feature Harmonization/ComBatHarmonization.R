@@ -1,6 +1,6 @@
 require(data.table)
 
-setwd(".../ESCC_ML-master/example/")
+setwd("/home/peng/00_github/03_radiomics/240602_ESCC_ML_SP//example/")
 T1 <- read.csv("features_cohort1.csv",header = T)
 T2 <- read.csv("features_cohort2.csv",header = T)
 T1<-T1[,2:dim(T1)[2]]

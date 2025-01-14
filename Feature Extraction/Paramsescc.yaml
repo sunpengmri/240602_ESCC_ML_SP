@@ -21,7 +21,6 @@ setting:
   weightingNorm: # If no value is specified, it is interpreted as None
   resegmentRange:  [-50, 400]
   voxelArrayShift: 1000  # Minimum value in HU is -1000, shift +1000 to prevent negative values from being squared.
-  label: 1
  
  
 # Image types to use: "Original" for unfiltered image, for possible filters, see documentation.
